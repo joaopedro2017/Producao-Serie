@@ -11,4 +11,30 @@ package model;
  */
 public class Tomada {
     
+    private Cena cena;
+    private int id;
+
+    public Tomada() {
+    }
+
+    public Tomada(Cena cena, int id) {
+        this.cena = cena;
+        this.id = id;
+    }   
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Cena getCena() {
+        return cena;
+    }
+
+    public void setCena(Cena cena) {
+        this.cena = cena;
+    }   
 }
